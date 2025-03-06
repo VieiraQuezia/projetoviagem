@@ -5,7 +5,7 @@ import Carros from "./Pages/NavBar/Carros";
 // import Alugueis from "./Pages/NavBar/Alugueis";
 // import Disney from "./Pages/NavBar/Disney";
 // import Parques from "./Pages/NavBar/Parques";
-// import Roma from "./Pages/Paises/Roma";
+// import Italia from "./Pages/Paises/Italia";
 // import Japao from "./Pages/Paises/Japao";
 // import Mexico from "./Pages/Paises/Mexico";
 // import Brasil from "./Pages/Paises/Brasil";
@@ -23,7 +23,7 @@ function App() {
           {/* <Route path="/alugueis" element={<Alugueis />}/>
           <Route path="/disney" element={<Disney/>} />
           <Route path="/parques" element={<Parques/>} />
-          <Route path="/roma" element={<Roma/>}/>
+          <Route path="/italia" element={<Italia/>}/>
           <Route path="/japao" element={<Japao/>}/>
           <Route path="/mexico" element={<Mexico/>}/>
           <Route path="/brasil" element={<Brasil/>}/> */}
