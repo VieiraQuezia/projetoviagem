@@ -7,7 +7,7 @@ function NavBar() {
         
     
         <li>
-                <Link className="link" to='/Hspoedagem' > Hospedagens </Link>
+                <Link className="link" to='/Hospedagens' > Hospedagens </Link>
                 </li>
             <li>
                 <Link className="link" to='/Carros' > Carros </Link>
