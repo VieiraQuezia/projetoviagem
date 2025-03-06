@@ -14,7 +14,10 @@ function App() {
 
       <NavBar />
 
-      <Card img={Roma} avaliacao="⭐⭐⭐⭐⭐" viagem="Pacotes para Roma, Itália" saida="Saindo de São Paulo" info="Preço final por pessoa" valor="R$3.993,00"/>
+      <a href="/roma"><Card img={Roma} avaliacao="⭐⭐⭐⭐⭐" viagem="Pacotes para Roma, Itália" saida="Saindo de São Paulo" info="Preço final por pessoa" valor="R$3.993,00"/></a>
+      <a href="/roma"><Card img={Roma} avaliacao="⭐⭐⭐⭐⭐" viagem="Pacotes para Roma, Itália" saida="Saindo de São Paulo" info="Preço final por pessoa" valor="R$3.993,00"/></a>
+      <a href="/roma"><Card img={Roma} avaliacao="⭐⭐⭐⭐⭐" viagem="Pacotes para Roma, Itália" saida="Saindo de São Paulo" info="Preço final por pessoa" valor="R$3.993,00"/></a>
+      <a href="/roma"><Card img={Roma} avaliacao="⭐⭐⭐⭐⭐" viagem="Pacotes para Roma, Itália" saida="Saindo de São Paulo" info="Preço final por pessoa" valor="R$3.993,00"/></a>
 
       <Footer
         imgi={Instagram}

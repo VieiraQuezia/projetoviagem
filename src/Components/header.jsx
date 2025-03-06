@@ -1,20 +1,16 @@
-import logo from '../../public/logo.png'
+import Logo from "/logo.png";
 
-
-import './header.css'
+import "./header.css";
 
 function App() {
-
   return (
     <>
-    <header>
-
-<h1>VIAGENS ✈</h1>
-<img className='logo' src={logo} alt="" />
-
-    </header>
+      <header>
+        <h1>VIAGENS ✈</h1>
+        <img className="logo" src={Logo} />
+      </header>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
