@@ -1,6 +1,6 @@
 import Card from "../../Components/card"
 import Carro from "/carro.png"
-import "/App.css"
+import "../..//App.css"
 
 
 function Carros () {

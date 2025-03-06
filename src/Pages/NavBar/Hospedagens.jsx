@@ -1,6 +1,6 @@
-import Header from "../components/header.jsx";
-import Footer from "../components/Footer";
-import NavBar from "../components/navBar.jsx";
+// import Header from "../components/header.jsx";
+// import Footer from "../components/Footer";
+// import NavBar from "../components/navBar.jsx";
 import Instagram from "/instagram.png";
 import gmail from "/gmail.png";
 import card from "../../Components/card";

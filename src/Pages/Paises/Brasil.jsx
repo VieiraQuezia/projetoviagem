@@ -7,7 +7,7 @@ import Card from "../Components/card.jsx";
 import Roma from "/roma.png";
 import "../App.css";
 
-function App() {
+function Brasil() {
   return (
     <>
       <Header />
@@ -35,4 +35,4 @@ function App() {
   );
 }
 
-export default App;
+export default Brasil;
