@@ -1,6 +1,7 @@
 import Header from "../components/header.jsx";
 import Footer from "../components/Footer";
 import NavBar from "../components/navBar.jsx";
+import Slider from '../Components/slider.jsx'
 import Instagram from "/instagram.png";
 import gmail from "/gmail.png";
 import Card from '../Components/card.jsx'
@@ -13,7 +14,7 @@ function App() {
       <Header />
 
       <NavBar />
-
+<Slider/>
       <Card img={Roma} avaliacao="⭐⭐⭐⭐⭐" viagem="Pacotes para Roma, Itália" saida="Saindo de São Paulo" info="Preço final por pessoa" valor="R$3.993,00"/>
 
       <Footer
