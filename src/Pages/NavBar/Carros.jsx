@@ -3,7 +3,7 @@ import Footer from "../../Components/footer.jsx";
 import NavBar from "../../Components/navBar.jsx";
 import Instagram from "/instagram.png";
 import Gmail from "/gmail.png";
-import Card from "../../Components/card.jsx";
+import Cartao from "../../Components/cartao.jsx";
 import Carro from "/carro.png"
 import "../../App.css"
 
@@ -14,13 +14,13 @@ function Carros() {
             <Header />
 
             <NavBar />
-            <Card img={Carro} viagem="Carro Econômico" saida="Em Lisboa" info="Com Budget" valor="R$ 148" />
+            <Cartao img={Carro} viagem="Carro Econômico" saida="Em Lisboa" info="Com Budget" valor="R$ 148" feito="Alugado" fazer="Alugar" />
 
-            <Card img={Carro} viagem="Carro Econômico" saida="Em Santiago" info="Com Hertz" valor="R$ 130" />
+            <Cartao img={Carro} viagem="Carro Econômico" saida="Em Santiago" info="Com Hertz" valor="R$ 130" feito="Alugado" fazer="Alugar" />
 
-            <Card img={Carro} viagem="Carro Econômico" saida="Em Belo Horizonte" info="Com Movida" valor="R$ 135" />
+            <Cartao img={Carro} viagem="Carro Econômico" saida="Em Belo Horizonte" info="Com Movida" valor="R$ 135" feito="Alugado" fazer="Alugar"/>
 
-            <Card img={Carro} viagem="Carro Econômico" saida="Em Miami" info="Com Florida Premium RentACar" valor="R$ 244" />
+            <Cartao img={Carro} viagem="Carro Econômico" saida="Em Miami" info="Com Florida Premium RentACar" valor="R$ 244" feito="Alugado" fazer="Alugar"/>
             
             <Footer
                 imgi={Instagram}
