@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 import Header from "../components/header.jsx";
 import Footer from "../components/Footer";
 import NavBar from "../components/navBar.jsx";
-import Slider from '../Components/slider.jsx'
+import Slider from "../Components/slider.jsx";
 import Instagram from "/instagram.png";
 import gmail from "/gmail.png";
-import Card from '../Components/card.jsx'
-import Japao from '/japao.png'
-import Mexico from '/cidade-do-mexico.jpg'
-import Roma from '/Roma.jpg'
-import Brasil from '/brasil.jpg'
+import Card from "../Components/card.jsx";
+import Japao from "/japao.jpg";
+import Mexico from "/mexico.jpg";
+import Roma from "/Roma.jpg";
+import Brasil from "/Brasil.png";
 import "../App.css";
 
 function App() {
@@ -44,7 +44,6 @@ function App() {
  </Link>
 
       </div>
-
       <Footer
         imgi={Instagram}
         insta="@grupo6"
@@ -57,8 +56,3 @@ function App() {
 }
 
 export default App;
-
-
-
-
-   
