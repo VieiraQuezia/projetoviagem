@@ -6,7 +6,7 @@ function card(props) {
     <>
       <div className="blocos">
         <nav className="bloco">
-          <img className="imagem" src={props.img} />
+          <img className="imagem" src={props.imge} width="100%"/>
           <h1>{props.viagem}</h1>
           <h3>{props.avaliacao}</h3>
           <p>{props.saida}</p>
