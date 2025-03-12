@@ -8,7 +8,7 @@ import Card from '../Components/card.jsx'
 import Japao from '/japao.png'
 import Mexico from '/cidade-do-mexico.jpg'
 import Roma from '/Roma.jpg'
-// import Brasil from '/brasil.png'
+import Brasil from '/brasil.jpg'
 import "../App.css";
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       <Header />
 <Slider/>      <NavBar />
       <div className="blocos">
-      <a href="/italia"><Card img={Italia} avaliacao="⭐⭐⭐⭐⭐" viagem="Pacotes para a Itália" saida="Saindo de São Paulo" info="Preço final por pessoa" valor="R$3.993,00"/></a>
+      <a href="/italia"><Card img={Roma} avaliacao="⭐⭐⭐⭐⭐" viagem="Pacotes para a Itália" saida="Saindo de São Paulo" info="Preço final por pessoa" valor="R$3.993,00"/></a>
       
       <a href="/japao"><Card img={Japao} avaliacao="⭐⭐⭐⭐⭐" viagem="Pacotes para o Japão" saida="Saindo de São Paulo" info="Preço final por pessoa" valor="R$3.993,00"/></a>
 
