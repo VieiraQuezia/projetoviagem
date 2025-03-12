@@ -50,3 +50,12 @@
   flex-direction: row;
   width: 100%;
 }
+
+.bloquinho{
+  display: flex;
+  flex-direction: column;
+  background-color: #116caf;
+  border-radius: 5px;
+  font-size: 1rem;
+
+}
