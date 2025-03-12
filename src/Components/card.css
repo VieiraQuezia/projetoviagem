@@ -8,10 +8,8 @@
   
   margin: 2%;
   background-color: #ffffff;
-  font-size: 80%;
   color: black;
-  /* width: 35%;
-  height: 30%; */
+ 
   border-radius: 10px;
   padding-bottom: 1%;
 
@@ -53,4 +51,8 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+}
+
+.estrelas {
+  
 }
