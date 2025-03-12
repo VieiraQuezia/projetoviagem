@@ -1,0 +1,43 @@
+
+.stars{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.stars:not(:checked) > input {
+    position: absolute;
+    appearance: none;
+  }
+  
+  .stars:not(:checked) > label {
+    float: right;
+    cursor: pointer;
+    font-size: 30px;
+    color: #666;
+  }
+  
+  .stars:not(:checked) > label:before {
+    content: '★';
+  }
+  
+  .stars > input:checked + label:hover,
+  .stars > input:checked + label:hover ~ label,
+  .stars > input:checked ~ label:hover,
+  .stars > input:checked ~ label:hover ~ label,
+  .stars > label:hover ~ input:checked ~ label {
+    color: #e58e09;
+  }
+  
+  .stars:not(:checked) > label:hover,
+  .stars:not(:checked) > label:hover ~ label {
+    color: #ff9e0b;
+  }
+  
+  .stars > input:checked ~ label {
+    color: #ffa723;
+  }
+  
+  
+  
+  

@@ -30,17 +30,17 @@ function App() {
 
       <div className="blocos">
 
-      <Link  to='/mexico'>  <Card img={Mexico} avaliacao="⭐⭐⭐⭐⭐" viagem="Pacotes para o México" saida="Saindo de São Paulo" info="Preço final por pessoa" valor="R$3.993,00"/>
+      <Link  to='/mexico'>  <Card imge={Mexico} avaliacao="⭐⭐⭐⭐⭐" viagem="Pacotes para o México" saida="Saindo de São Paulo" info="Preço final por pessoa" valor="R$3.993,00"/>
  </Link>
 
         
-        <Link to='/italia'> <Card img={Roma} avaliacao="⭐⭐⭐⭐⭐" viagem="Pacotes para a Itália" saida="Saindo de São Paulo" info="Preço final por pessoa" valor="R$3.993,00"/>
+        <Link to='/italia'> <Card imge={Roma} avaliacao="⭐⭐⭐⭐⭐" viagem="Pacotes para a Itália" saida="Saindo de São Paulo" info="Preço final por pessoa" valor="R$3.993,00"/>
  </Link>
 
- <Link to='/japao'> <Card img={Japao} avaliacao="⭐⭐⭐⭐⭐" viagem="Pacotes para o Japão" saida="Saindo de São Paulo" info="Preço final por pessoa" valor="R$3.993,00"/>
+ <Link to='/japao'> <Card imge={Japao} avaliacao="⭐⭐⭐⭐⭐" viagem="Pacotes para o Japão" saida="Saindo de São Paulo" info="Preço final por pessoa" valor="R$3.993,00"/>
  </Link>
 
-<Link to='/brasil' > <Card img={Brasil} avaliacao="⭐⭐⭐⭐⭐" viagem="Pacotes para o Brasil" saida="Saindo de São Paulo" info="Preço final por pessoa" valor="R$3.993,00"/>
+<Link to='/brasil' > <Card imge={Brasil} avaliacao="⭐⭐⭐⭐⭐" viagem="Pacotes para o Brasil" saida="Saindo de São Paulo" info="Preço final por pessoa" valor="R$3.993,00"/>
  </Link>
 
       </div>
