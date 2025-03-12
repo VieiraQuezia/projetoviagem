@@ -3,8 +3,6 @@ import Footer from "../components/Footer";
 import NavBar from "../components/navBar.jsx";
 import Instagram from "/instagram.png";
 import gmail from "/gmail.png";
-import Card from "../Components/card.jsx";
-import Roma from "/roma.png";
 import "../App.css";
 
 function Brasil() {
@@ -14,7 +12,8 @@ function Brasil() {
 
       <NavBar />
 
-      <p className="paragrafopais">O Brasil é o maior país da América do Sul, conhecido por sua diversidade
+      <p className="paragrafopais">
+        O Brasil é o maior país da América do Sul, conhecido por sua diversidade
         cultural, belezas naturais e paixão pelo futebol. É o único país da
         América Latina que fala português, devido à colonização portuguesa, e
         tem uma rica mistura de influências indígenas, africanas e europeias.
@@ -22,7 +21,8 @@ function Brasil() {
         bossa nova e funk), e uma culinária incrível (feijoada, pão de queijo,
         açaí) são alguns dos destaques do país. Além disso, o Brasil tem uma
         economia forte na agropecuária e na indústria, e sua cultura é marcada
-        pela alegria e hospitalidade do povo.</p>
+        pela alegria e hospitalidade do povo.
+      </p>
 
       <Footer
         imgi={Instagram}
