@@ -8,9 +8,9 @@ import Slider from "../Components/slider.jsx";
 import Instagram from "/instagram.png";
 import gmail from "/gmail.png";
 import Card from "../Components/card.jsx";
-import Japao from "/japao.jpg";
+import Japao from "/japao.png";
 import Mexico from "/mexico.jpg";
-import Roma from "/Roma.jpg";
+import Roma from "/ItaliaRoma.png";
 import Brasil from "/Brasil.png";
 import "../App.css";
 
