@@ -1,6 +1,6 @@
-import "./card.css";
+  import "./card.css";
 
-function card(props) {
+  function card(props) {
 
   return (
     <>
@@ -18,4 +18,4 @@ function card(props) {
   );
 }
 
-export default card;
+  export default card;

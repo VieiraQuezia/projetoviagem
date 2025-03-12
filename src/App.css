@@ -2,7 +2,10 @@
   padding: 2rem;
   text-align: center;
 }
-
+.blocos{
+display: flex;
+justify-content: space-around;
+}
 
 
 .logo {
@@ -33,5 +36,16 @@
   }
 }
 
+.paragrafopais {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.hoteis {
+  display: flex;
+  flex-direction: row;
+  /* width: 60%; */
+}
 /* ------------------------------------------------------------------- */
 
