@@ -53,6 +53,89 @@ button {
   transition: border-color 0.25s;
 }
 
+.cor-container {
+  h2 {
+    color: black;
+  }
+  margin-left: 5%;
+}
+
+.form {
+  margin-left: 5%;
+  input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: bisque;
+  }
+  select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: bisque;
+  }
+}
+
+.escuro {
+  padding: 10%;
+  background-color: black;
+  color: white;
+  input {
+    margin: auto;
+  }
+}
+
+.claro {
+  padding: 10%;
+  background-color: white;
+  color: black;
+  input {
+    margin: auto;
+  }
+}
+
+.adicionar {
+  color: green;
+}
+
+.retirar {
+  color: red;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+}
+
+.vermelho {
+  padding: 2% 4vw 10% 4vw;
+  color: white;
+  button {
+    background-color: red;
+  }
+  border-radius: 10px;
+}
+
+.azul {
+  padding: 2% 4vw 10% 4vw;
+  color: white;
+  button {
+    background-color: blue;
+  }
+  border-radius: 5px;
+}
+
 .estrelas {
-  
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
 }

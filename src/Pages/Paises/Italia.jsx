@@ -3,6 +3,7 @@ import Footer from "../../components/Footer.jsx";
 import NavBar from "../../components/navBar.jsx";
 import Instagram from "/instagram.png";
 import gmail from "/gmail.png";
+import Estrelas from "../../Components/estrelas.jsx";
 
 import "../../App.css";
 
@@ -30,6 +31,8 @@ function Italia() {
         apaixonado, com uma cultura fortemente ligada à família e ao prazer da
         boa comida.
       </p>
+
+      <Estrelas/>
 
       <Footer
         imgi={Instagram}

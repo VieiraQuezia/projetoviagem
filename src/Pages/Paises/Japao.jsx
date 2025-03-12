@@ -3,6 +3,7 @@ import Footer from "../../components/Footer.jsx";
 import NavBar from "../../components/navBar.jsx";
 import Instagram from "/instagram.png";
 import gmail from "/gmail.png";
+import Estrelas from "../../Components/estrelas.jsx";
 
 import "../../App.css";
 function Japao() {
@@ -27,6 +28,8 @@ function Japao() {
         educação, a inovação e a coletividade, tornando o país um dos mais
         desenvolvidos e organizados do mundo.
       </p>
+
+      <Estrelas/>
 
       <Footer
         imgi={Instagram}

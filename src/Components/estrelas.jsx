@@ -6,8 +6,7 @@ function Estrelas() {
 
   return (
     <div>
-      <h2>Desafio 1 - Avaliar:</h2>
-      <h2>Sua nota:</h2>
+      <h2>Avaliar destino</h2>
       <div className="estrelas">
         <button
           onClick={() => setNota(1)}
@@ -21,7 +20,7 @@ function Estrelas() {
             className={nota >= 1 ? "bx bxs-star" : "bx bxs-star"}
             style={{
               color: nota >= 1 ? "#f8ff00" : "#808080",
-              fontSize: "3em",
+              fontSize: "2em",
             }}
           ></i>
         </button>
@@ -37,7 +36,7 @@ function Estrelas() {
             className={nota >= 2 ? "bx bxs-star" : "bx bxs-star"}
             style={{
               color: nota >= 2 ? "#f8ff00" : "#808080",
-              fontSize: "3em",
+              fontSize: "2em",
             }}
           ></i>
         </button>
@@ -53,7 +52,7 @@ function Estrelas() {
             className={nota >= 3 ? "bx bxs-star" : "bx bxs-star"}
             style={{
               color: nota >= 3 ? "#f8ff00" : "#808080",
-              fontSize: "3em",
+              fontSize: "2em",
             }}
           ></i>
         </button>
@@ -69,7 +68,7 @@ function Estrelas() {
             className={nota >= 4 ? "bx bxs-star" : "bx bxs-star"}
             style={{
               color: nota >= 4 ? "#f8ff00" : "#808080",
-              fontSize: "3em",
+              fontSize: "2em",
             }}
           ></i>
         </button>
@@ -85,7 +84,7 @@ function Estrelas() {
             className={nota >= 5 ? "bx bxs-star" : "bx bxs-star"}
             style={{
               color: nota >= 5 ? "#f8ff00" : "#808080",
-              fontSize: "3em",
+              fontSize: "2em",
             }}
           ></i>
         </button>
