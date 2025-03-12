@@ -21,6 +21,7 @@ function Carros() {
             <Card img={Carro} viagem="Carro Econômico" saida="Em Belo Horizonte" info="Com Movida" valor="R$ 135" />
 
             <Card img={Carro} viagem="Carro Econômico" saida="Em Miami" info="Com Florida Premium RentACar" valor="R$ 244" />
+            
             <Footer
                 imgi={Instagram}
                 insta="@grupo6"
