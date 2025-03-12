@@ -20,7 +20,7 @@ function Turismo() {
         <Cartao
           img={Coliseu}
           viagem="Coliseu"
-          saida="Em Roma"
+          saida="Em Roma, Itália"
           info="Valor individual"
           valor="R$ 220"
           feito="Agenciado"
@@ -30,7 +30,7 @@ function Turismo() {
         <Cartao
           img={MonteFuji}
           viagem="Monte Fuji"
-          saida="Em Japão"
+          saida="Em Ilha de Honshu, Japão"
           info="Valor individual"
           valor="R$ 350"
           feito="Agenciado"
@@ -40,7 +40,7 @@ function Turismo() {
         <Cartao
           img={CasaJojo}
           viagem="Casa do João Vitor"
-          saida="Em Juarez"
+          saida="Em Juarez, México"
           info="Valor individual"
           valor="R$ 2.999,99"
           feito="Agenciado"
@@ -50,7 +50,7 @@ function Turismo() {
         <Cartao
           img={Gramado}
           viagem="Gramado"
-          saida="Em Rio Grande do Sul"
+          saida="Em Rio Grande do Sul, Brasil"
           info="Valor para Casal"
           valor="R$ 150"
           feito="Agenciado"

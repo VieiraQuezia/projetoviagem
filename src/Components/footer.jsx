@@ -3,24 +3,20 @@
 // function Footer (props) {
 //     return (
 //         <>
-//         <div className='Footer'> 
+//         <div className='Footer'>
 //            <img src={props.imgi} />
-//            <p>{props.insta}</p> 
+//            <p>{props.insta}</p>
 //            <img src={props.imge}/>
 //            <p>{props.email}</p>
-//            <p>{props.texto}</p> 
-          
+//            <p>{props.texto}</p>
+
 //         </div>
-        
-        
+
 //         </>
 //     )
 // }
 
-// export default Footer 
-
-
-
+// export default Footer
 
 import "./Footer.css";
 
@@ -31,17 +27,17 @@ function Footer() {
         <div className="Bloco1">
           <div className="Bloco1-1">
             <p>
-              Sobre: Plataforma criada por todos os membros
-               da equipe 5, constituída no ano de 2024 com 
-               o propósito de reunir seis estudantes para 
-               colaborar no desenvolvimento de websites e
-                aplicativos dinâmicos, proporcionando 
-                experiência tanto social quanto profissional.
+              Plataforma criada em 2024 por todos os membros da Equipe 6, com o
+              propósito de reunir cinco estudantes para colaborar no
+              desenvolvimento de websites e aplicativos dinâmicos. Nosso
+              objetivo sempre foi proporcionar experiência tanto social quanto
+              profissional. Atualmente, contamos com quatro colaboradores, pois,
+              infelizmente, um de nossos membros partiu para melhor.
             </p>
           </div>
           <div className="Bloco1-2">
             <p className="consertando">
-            Direitos reservados por Grupo 6 SESI SENAI Vinhedo SP 
+              Direitos reservados por Grupo 6 SESI SENAI Vinhedo SP
             </p>
           </div>
           <div className="Bloco1-3">
@@ -63,7 +59,7 @@ function Footer() {
           </div>
         </div>
         <div className="Bloco2img">
-          <img src='' alt="" />
+          <img src="" alt="" />
         </div>
         <div className="Bloco3">
           <div className="BlocoSobreNos">
@@ -83,11 +79,7 @@ function Footer() {
             <p>Grupo 6</p>
           </div>
           <div className="BlocoReclamacoes">
-            <p>Numero para reclamações: 
-              0800-7397 / 
-              19-957359825
-            </p>
-            
+            <p>Numero para reclamações: 0800-7397 / 19-957359825</p>
           </div>
         </div>
       </footer>
