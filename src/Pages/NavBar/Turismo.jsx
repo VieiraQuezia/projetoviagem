@@ -23,8 +23,8 @@ function Turismo() {
           saida="Em Roma"
           info="Com Budget"
           valor="R$ 220 por pessoa"
-          feito="Agenciar"
-          fazer="Agenciado"
+          feito="Agenciado"
+          fazer="Agenciar"
         />
 
         <Cartao
@@ -33,8 +33,8 @@ function Turismo() {
           saida="Em Japão"
           info="Com Hertz"
           valor="R$ 350 por pessoa"
-          feito="Agenciar"
-          fazer="Agenciado"
+          feito="Agenciado"
+          fazer="Agenciar"
         />
 
         <Cartao
@@ -43,8 +43,8 @@ function Turismo() {
           saida="Em Juarez"
           info="Com Movida"
           valor="R$ 2.999,99 para o Leonardo (restante grátis)"
-          feito="Agenciar"
-          fazer="Agenciado"
+          feito="Agenciado"
+          fazer="Agenciar"
         />
 
         <Cartao
@@ -53,8 +53,8 @@ function Turismo() {
           saida="Em Rio Grande do Sul"
           info="Com Florida Premium RentACar"
           valor="R$ 100"
-          feito="Agenciar"
-          fazer="Agenciado"
+          feito="Agenciado"
+          fazer="Agenciar"
         />
       </article>
       <Footer

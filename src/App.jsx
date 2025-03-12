@@ -3,9 +3,8 @@ import Home from "./Pages/home";
 import Hospedagens from "./Pages/NavBar/Hospedagens";
 import Carros from "./Pages/NavBar/Carros";
 import Disney from "./Pages/NavBar/Disney";
-// import Alugueis from "./Pages/NavBar/Alugueis";
-// import Disney from "./Pages/NavBar/Disney";
-// import Parques from "./Pages/NavBar/Parques";
+import Turismo from "./Pages/NavBar/Turismo";
+import SobreNos from "./Pages/NavBar/SobreNos";
 import Italia from "./Pages/Paises/Italia";
 import Japao from "./Pages/Paises/Japao";
 import Mexico from "./Pages/Paises/Mexico";
@@ -19,18 +18,16 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/hospedagens" element={<Hospedagens/>} />
-          <Route path="/carros" element={<Carros/>} />
-           {/* <Route path="/alugueis" element={<Alugueis />}/>
-            <Route path="/parques" element={<Parques/>} />
-  */}
-          <Route path="/disney" element={<Disney/>} />
+          <Route path="/Hospedagens" element={<Hospedagens />} />
+          <Route path="/Carros" element={<Carros />} />
+          <Route path="/Turismo" element={<Turismo />} />
+          <Route path="/SobreNos" element={<SobreNos />} />
+          <Route path="/Disney" element={<Disney />} />
 
-          
-           <Route path="/italia" element={<Italia/>}/> 
-           <Route path="/japao" element={<Japao/>}/> 
-          <Route path="/mexico" element={<Mexico/>}/>
-           <Route path="/brasil" element={<Brasil/>}/>  
+          <Route path="/italia" element={<Italia />} />
+          <Route path="/japao" element={<Japao />} />
+          <Route path="/mexico" element={<Mexico />} />
+          <Route path="/brasil" element={<Brasil />} />
         </Routes>
       </BrowserRouter>
     </>
