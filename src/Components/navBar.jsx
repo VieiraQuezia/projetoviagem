@@ -13,13 +13,13 @@ function NavBar() {
                 <Link className="link" to='/Carros' > Carros </Link>
                 </li>
             <li>
-                <Link className="link" to='/Alugueis' > Alugueis </Link>
+                <Link className="link" to='/Turismo' > Turismo </Link>
                 </li>
             <li>
                 <Link className="link" to='/Disney' > Disney </Link>
                 </li>
             <li>
-                <Link className="link" to='/Parques' > Parques </Link>
+                <Link className="link" to='/SobreNos' > Sobre nós </Link>
                 </li>
       </ul>
     </nav>
