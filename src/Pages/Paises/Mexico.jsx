@@ -32,7 +32,7 @@ function Mexico() {
         cinematográfica reconhecida mundialmente.
       </p>
 
-      <Estrelas/>
+      <Estrelas />
       
       <Footer
         imgi={Instagram}
