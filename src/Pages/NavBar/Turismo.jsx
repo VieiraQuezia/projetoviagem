@@ -21,8 +21,8 @@ function Turismo() {
           img={Coliseu}
           viagem="Coliseu"
           saida="Em Roma"
-          info="Com Budget"
-          valor="R$ 220 por pessoa"
+          info="Valor individual"
+          valor="R$ 220"
           feito="Agenciado"
           fazer="Agenciar"
         />
@@ -31,8 +31,8 @@ function Turismo() {
           img={MonteFuji}
           viagem="Monte Fuji"
           saida="Em Japão"
-          info="Com Hertz"
-          valor="R$ 350 por pessoa"
+          info="Valor individual"
+          valor="R$ 350"
           feito="Agenciado"
           fazer="Agenciar"
         />
@@ -41,7 +41,7 @@ function Turismo() {
           img={CasaJojo}
           viagem="Casa do João Vitor"
           saida="Em Juarez"
-          info="Com Movida"
+          info="Valor individual"
           valor="R$ 2.999,99"
           feito="Agenciado"
           fazer="Agenciar"
@@ -51,8 +51,8 @@ function Turismo() {
           img={Gramado}
           viagem="Gramado"
           saida="Em Rio Grande do Sul"
-          info="Com Florida Premium RentACar"
-          valor="R$ 100"
+          info="Valor para Casal"
+          valor="R$ 150"
           feito="Agenciado"
           fazer="Agenciar"
         />

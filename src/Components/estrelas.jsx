@@ -1,31 +1,68 @@
-import "./estrela.css";
+import { useState } from "react";
+
 
 function Estrelas() {
+  const [nota, setNota] = useState(0);
 
   return (
-    <>
+    <div>
     
     <h2>Avaliar destino</h2>
 
-<div className="stars">
-  <input value="1" name="rate" id="star1" type="radio"/>
-  <label title="text" for="star1"></label>
+    <button
+        onClick={() => setNota(1)}
+        style={{ backgroundColor: "transparent", border: "none", cursor: "pointer"}}
+      >
+        <i
+          className={nota >= 1 ? "bx bxs-star" : "bx bxs-star"}
+          style={{ color: nota >= 1 ? "#f8ff00" : "#808080", fontSize: "2em" }}
+        ></i>
+      </button>
 
-  <input value="2" name="rate" id="star2" type="radio"/>
-  <label title="text" for="star2"></label>
 
-  <input value="3" name="rate" id="star3" type="radio"/>
-  <label title="text" for="star3"></label>
 
-  <input value="4" name="rate" id="star4" type="radio"/>
-  <label title="text" for="star4"></label>
 
-  <input value="5" name="rate" id="star5" type="radio"/>
-  <label title="text" for="star5"></label>
-</div>
 
-    </>
-     
+      <button
+        onClick={() => setNota(2)}
+        style={{ backgroundColor: "transparent", border: "none", cursor: "pointer" }}
+      >
+        <i
+          className={nota >= 2 ? "bx bxs-star" : "bx bxs-star"}
+          style={{ color: nota >= 2 ? "#f8ff00" : "#808080", fontSize: "2em" }}
+        ></i>
+      </button>
+      <button
+        onClick={() => setNota(3)}
+        style={{ backgroundColor: "transparent", border: "none", cursor: "pointer" }}
+      >
+        <i
+          className={nota >= 3 ? "bx bxs-star" : "bx bxs-star"}
+          style={{ color: nota >= 3 ? "#f8ff00" : "#808080" , fontSize: "2em"}}
+        ></i>
+      </button>
+      <button
+        onClick={() => setNota(4)}
+        style={{ backgroundColor: "transparent", border: "none", cursor: "pointer" }}
+      >
+        <i
+          className={nota >= 4 ? "bx bxs-star" : "bx bxs-star"}
+          style={{ color: nota >= 4 ? "#f8ff00" : "#808080" , fontSize: "2em"}}
+        ></i>
+      </button>
+      <button
+        onClick={() => setNota(5)}
+        style={{ backgroundColor: "transparent", border: "none", cursor: "pointer" }}
+      >
+        <i
+          className={nota >= 5 ? "bx bxs-star" : "bx bxs-star"}
+          style={{ color: nota >= 5 ? "#f8ff00" : "#808080", fontSize: "2em" }}
+        ></i>
+      </button>
+      <p>
+        Você deu <span style={{ color: "green" }}>{nota}</span> estrelas
+      </p>
+    </div>
   );
 }
 

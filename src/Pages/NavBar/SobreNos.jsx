@@ -18,22 +18,26 @@ function SobreNos() {
       <article className="blocoss">
         <div className="bloquinho">
           <img src={Guilherme} />
-          <p>Guilherme G. Santana</p>
+          <h2>Guilherme G. Santana</h2>
+          <p>Desenvolvedor 💻</p>
         </div>
 
         <div className="bloquinho">
           <img src={Hayeska} />
-          <p>Hayeska L. A. Machado</p>
+          <h2>Hayeska L. A. Machado</h2>
+          <p>Desenvolvedora 💻</p>
         </div>
 
         <div className="bloquinho">
           <img src={Leonardo} />
-          <p>Leonardo M. Vicente</p>
+          <h2>Leonardo M. Vicente</h2>
+          <p>Vice-Líder 🧠</p>
         </div>
 
         <div className="bloquinho">
           <img src={Quezia} />
-          <p>Quezia A. Vieira</p>
+          <h2>Quezia A. Vieira</h2>
+          <p>Líder 👑</p>
         </div>
       </article>
       <Footer
