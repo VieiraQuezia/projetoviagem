@@ -4,8 +4,11 @@ import NavBar from "../../Components/navBar.jsx";
 import Instagram from "/instagram.png";
 import Gmail from "/gmail.png";
 import Card from "../../Components/card.jsx";
-import Carro from "/carro.png"
 import "../../App.css"
+import Animal from '/animalkingdom.png'
+import Hollywood from '/disneyhollywood.png'
+import Epcot from '/epcot.png'
+import Magic from '/magickingdom.png'
 
 
 function Disney() {
@@ -14,13 +17,13 @@ function Disney() {
             <Header />
 
             <NavBar />
-            <Card img={Carro} viagem="Carro Econômico" saida="Em Lisboa" info="Com Budget" valor="R$ 148" />
+            <Card img={Animal} viagem="Animal Kingdom" saida="Bay Lake, FL" info="Preço por adulto" valor="R$ 3.137" />
 
-            <Card img={Carro} viagem="Carro Econômico" saida="Em Santiago" info="Com Hertz" valor="R$ 130" />
+            <Card img={Hollywood} viagem="Disney Hollywood" saida="Bay Lake, FL" info="Preço por adulto" valor="R$ 2.895" />
 
-            <Card img={Carro} viagem="Carro Econômico" saida="Em Belo Horizonte" info="Com Movida" valor="R$ 135" />
+            <Card img={Epcot} viagem="Epcot" saida="Bay Lake, FL" info="Preço por adulto" valor="R$ 2.455" />
 
-            <Card img={Carro} viagem="Carro Econômico" saida="Em Miami" info="Com Florida Premium RentACar" valor="R$ 244" />
+            <Card img={Magic} viagem="Magic Kingdom Park" saida="Orlando, FL" info="Preço por adulto" valor="R$ 3.412" />
             <Footer
                 imgi={Instagram}
                 insta="@grupo6"
