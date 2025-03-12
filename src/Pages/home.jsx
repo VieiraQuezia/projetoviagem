@@ -1,19 +1,19 @@
 import { Link } from "react-router-dom";
 
 
-import Header from "../components/header.jsx";
-import Footer from "../components/Footer";
-import NavBar from "../components/navBar.jsx";
+import Header from "../Components/header.jsx";
+import Footer from "../Components/footer.jsx";
+import NavBar from "../Components/navBar.jsx";
 import Slider from "../Components/slider.jsx";
 import Instagram from "/instagram.png";
 import gmail from "/gmail.png";
 import Card from "../Components/card.jsx";
 
 
-import Japao from "/japao.png";
-import Mexico from "/mexico.jpg";
-import Roma from "/ItaliaRoma.png";
-import Brasil from "/Brasil.png";
+import Japao from "../../public/paises/japao.png";
+import Mexico from "../../public/paises/mexico.jpg";
+import Roma from "../../public/paises/ItaliaRoma.png";
+import Brasil from "../../public/paises/Brasil.png";
 
 
 import "../App.css";
