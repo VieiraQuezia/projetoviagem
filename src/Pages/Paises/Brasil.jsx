@@ -1,9 +1,11 @@
-import Header from "../components/header.jsx";
-import Footer from "../components/Footer";
-import NavBar from "../components/navBar.jsx";
+import Header from "../../Components/header.jsx";
+import Footer from "../../components/footer.jsx";
+import NavBar from "../../components/navBar.jsx";
 import Instagram from "/instagram.png";
 import gmail from "/gmail.png";
-import "../App.css";
+import Estrelas from "../../Components/estrelas.jsx";
+
+import "../../App.css";
 
 function Brasil() {
   return (
@@ -24,6 +26,8 @@ function Brasil() {
         pela alegria e hospitalidade do povo.
       </p>
 
+          <Estrelas/>
+          
       <Footer
         imgi={Instagram}
         insta="@grupo6"

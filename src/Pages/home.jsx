@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+
+
 import Header from "../components/header.jsx";
 import Footer from "../components/Footer";
 import NavBar from "../components/navBar.jsx";
@@ -14,53 +17,32 @@ import "../App.css";
 function App() {
   return (
     <>
+
+    
       <Header />
-      <Slider /> 
-      <NavBar />
+<Slider/>      <NavBar />
+
+
+
+
+
+
+
       <div className="blocos">
-        <a href="/italia">
-          <Card
-            imge={Roma}
-            avaliacao="⭐⭐⭐⭐⭐"
-            viagem="Pacotes para a Itália"
-            saida="Saindo de São Paulo"
-            info="Preço final por pessoa"
-            valor="R$3.993,00"
-          />
-        </a>
 
-        <a href="/japao">
-          <Card
-            imge={Japao}
-            avaliacao="⭐⭐⭐⭐⭐"
-            viagem="Pacotes para o Japão"
-            saida="Saindo de São Paulo"
-            info="Preço final por pessoa"
-            valor="R$3.993,00"
-          />
-        </a>
+      <Link  to='/mexico'>  <Card img={Mexico} avaliacao="⭐⭐⭐⭐⭐" viagem="Pacotes para o México" saida="Saindo de São Paulo" info="Preço final por pessoa" valor="R$3.993,00"/>
+ </Link>
 
-        <a href="/mexico">
-          <Card
-            imge={Mexico}
-            avaliacao="⭐⭐⭐⭐⭐"
-            viagem="Pacotes para o México"
-            saida="Saindo de São Paulo"
-            info="Preço final por pessoa"
-            valor="R$3.993,00"
-          />
-        </a>
+        
+        <Link to='/italia'> <Card img={Roma} avaliacao="⭐⭐⭐⭐⭐" viagem="Pacotes para a Itália" saida="Saindo de São Paulo" info="Preço final por pessoa" valor="R$3.993,00"/>
+ </Link>
 
-        <a href="/brasil">
-          <Card
-            imge={Brasil}
-            avaliacao="⭐⭐⭐⭐⭐"
-            viagem="Pacotes para o Brasil"
-            saida="Saindo de São Paulo"
-            info="Preço final por pessoa"
-            valor="R$3.993,00"
-          />
-        </a>
+ <Link to='/japao'> <Card img={Japao} avaliacao="⭐⭐⭐⭐⭐" viagem="Pacotes para o Japão" saida="Saindo de São Paulo" info="Preço final por pessoa" valor="R$3.993,00"/>
+ </Link>
+
+<Link to='/brasil' > <Card img={Brasil} avaliacao="⭐⭐⭐⭐⭐" viagem="Pacotes para o Brasil" saida="Saindo de São Paulo" info="Preço final por pessoa" valor="R$3.993,00"/>
+ </Link>
+
       </div>
       <Footer
         imgi={Instagram}

@@ -1,11 +1,11 @@
-import Header from "../components/header.jsx";
-import Footer from "../components/Footer";
-import NavBar from "../components/navBar.jsx";
+import Header from "../../Components/header.jsx";
+import Footer from "../../components/Footer.jsx";
+import NavBar from "../../components/navBar.jsx";
 import Instagram from "/instagram.png";
 import gmail from "/gmail.png";
-import Card from "../Components/card.jsx";
-import Roma from "/roma.png";
-import "../App.css";
+import Estrelas from "../../Components/estrelas.jsx";
+
+import "../../App.css";
 
 function Italia() {
   return (
@@ -31,6 +31,8 @@ function Italia() {
         apaixonado, com uma cultura fortemente ligada à família e ao prazer da
         boa comida.
       </p>
+
+      <Estrelas/>
 
       <Footer
         imgi={Instagram}

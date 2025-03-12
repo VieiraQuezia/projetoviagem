@@ -1,12 +1,11 @@
-import Header from "../components/header.jsx";
-import Footer from "../components/Footer";
-import NavBar from "../components/navBar.jsx";
+import Header from "../../Components/header.jsx";
+import Footer from "../../components/Footer.jsx";
+import NavBar from "../../components/navBar.jsx";
 import Instagram from "/instagram.png";
 import gmail from "/gmail.png";
-import Card from "../Components/card.jsx";
-import Roma from "/roma.png";
-import "../App.css";
+import Estrelas from "../../Components/estrelas.jsx";
 
+import "../../App.css";
 function Japao() {
   return (
     <>
@@ -29,6 +28,8 @@ function Japao() {
         educação, a inovação e a coletividade, tornando o país um dos mais
         desenvolvidos e organizados do mundo.
       </p>
+
+      <Estrelas/>
 
       <Footer
         imgi={Instagram}

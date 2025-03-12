@@ -1,12 +1,8 @@
+
 #root {
   padding: 2rem;
   text-align: center;
 }
-.blocos{
-display: flex;
-justify-content: space-around;
-}
-
 
 .logo {
   height: 6em;
@@ -49,3 +45,8 @@ justify-content: space-around;
 }
 /* ------------------------------------------------------------------- */
 
+.blocoss {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
