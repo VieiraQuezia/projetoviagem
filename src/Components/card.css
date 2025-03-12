@@ -2,10 +2,10 @@
   display: flex;
   flex-direction: row;
   width: 100%;
+
 }
 
 .bloco {
-  
   margin: 2%;
   background-color: #ffffff;
   color: black;
@@ -14,12 +14,15 @@
   padding-bottom: 1%;
 
 
+
+
   h2 {
     padding: 3% 0% 3%;
     text-align: center;
     font-size: 1.6vw;
     text-align: left;
     padding-left: 3%;
+    
   }
   h1 {
     font-size: 2vw;
