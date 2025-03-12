@@ -17,10 +17,10 @@ function Hospedagens() {
 
       <NavBar />
       <div className="hoteis">
-      <Card imge={Hotel1} avaliacao="⭐⭐⭐⭐" viagem="Hotel em Roma" saida="Preço por pessoa" info="Diária por adulto" valor="R$2.433,00" />
-      <Card imge={Hotel2} avaliacao="⭐⭐⭐⭐⭐" viagem="Hotel em Tóquio" saida="Preço por pessoa" info="Diária por adulto" valor="R$1.338,00" />
+      <Card imge={Hotel1} avaliacao="⭐⭐⭐⭐⭐" viagem="Hotel em Roma" saida="Preço por pessoa" info="Diária por adulto" valor="R$2.433,00" />
+      <Card imge={Hotel2} avaliacao="⭐⭐⭐" viagem="Hotel em Tóquio" saida="Preço por pessoa" info="Diária por adulto" valor="R$1.338,00" />
       <Card imge={Hotel3} avaliacao="⭐⭐⭐⭐" viagem="Hotel no México" saida="Preço por pessoa" info="Diária por adulto" valor="R$424,00" />
-      <Card imge={Hotel4} avaliacao="⭐⭐⭐⭐⭐" viagem="Hotel no Rio de Janeiro" saida="Preço por pessoa" info="Diária por adulto" valor="R$495,00" />
+      <Card imge={Hotel4} avaliacao="⭐⭐" viagem="Hotel no Rio de Janeiro" saida="Preço por pessoa" info="Diária por adulto" valor="R$495,00" />
       </div>
       <Footer
         imgi={Instagram}
