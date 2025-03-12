@@ -16,12 +16,12 @@ function Hospedagens() {
       <Header />
 
       <NavBar />
-
+      <div className="hoteis">
       <Card img={Hotel1} avaliacao="⭐⭐⭐⭐" viagem="Hotel em Roma" saida="Preço por pessoa" info="Diária por adulto" valor="R$2.433,00" />
       <Card img={Hotel2} avaliacao="⭐⭐⭐⭐⭐" viagem="Hotel em Tóquio" saida="Preço por pessoa" info="Diária por adulto" valor="R$1.338,00" />
-      <Card img={Hotel3} avaliacao="⭐⭐⭐⭐" viagem="Hotel na Cidade do México" saida="Preço por pessoa" info="Diária por adulto" valor="R$424,00" />
-      <Card img={Hotel4} avaliacao="⭐⭐⭐⭐⭐" viagem="Hotel em " saida="Preço por pessoa" info="Diária por adulto" valor="R$495,00" />
-
+      <Card img={Hotel3} avaliacao="⭐⭐⭐⭐" viagem="Hotel no México" saida="Preço por pessoa" info="Diária por adulto" valor="R$424,00" />
+      <Card img={Hotel4} avaliacao="⭐⭐⭐⭐⭐" viagem="Hotel no Rio de Janeiro" saida="Preço por pessoa" info="Diária por adulto" valor="R$495,00" />
+      </div>
       <Footer
         imgi={Instagram}
         insta="@grupo6"

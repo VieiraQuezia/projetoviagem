@@ -5,18 +5,17 @@ import Slider from '../Components/slider.jsx'
 import Instagram from "/instagram.png";
 import gmail from "/gmail.png";
 import Card from '../Components/card.jsx'
-import Italia from '/italia.png'
 import Japao from '/japao.png'
-import Mexico from '/mexico.png'
-import Brasil from '/brasil.jpg'
+import Mexico from '/cidade-do-mexico.jpg'
+import Roma from '/Roma.jpg'
+// import Brasil from '/brasil.png'
 import "../App.css";
 
 function App() {
   return (
     <>
       <Header />
-
-      <NavBar />
+<Slider/>      <NavBar />
       <div className="blocos">
       <a href="/italia"><Card img={Italia} avaliacao="⭐⭐⭐⭐⭐" viagem="Pacotes para a Itália" saida="Saindo de São Paulo" info="Preço final por pessoa" valor="R$3.993,00"/></a>
       
