@@ -6,7 +6,7 @@
     <>
       <div className="blocos">
         <nav className="bloco">
-          <img className="imagem" src={props.imge} width="100%"/>
+          <img className="imagem" src={props.imge} />
           <h1>{props.viagem}</h1>
           <h3>{props.avaliacao}</h3>
           <p>{props.saida}</p>

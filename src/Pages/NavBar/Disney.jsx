@@ -18,13 +18,13 @@ function Disney() {
 
             <NavBar />
             <div className="blocos">
-            <Card img={Animal} viagem="Animal Kingdom" saida="Bay Lake, FL" info="Preço por adulto" valor="R$ 3.137" />
+            <Card imge={Animal} viagem="Animal Kingdom" saida="Bay Lake, FL" info="Preço por adulto" valor="R$ 3.137" />
 
-            <Card img={Hollywood} viagem="Disney Hollywood" saida="Bay Lake, FL" info="Preço por adulto" valor="R$ 2.895" />
+            <Card imge={Hollywood} viagem="Disney Hollywood" saida="Bay Lake, FL" info="Preço por adulto" valor="R$ 2.895" />
 
-            <Card img={Epcot} viagem="Epcot" saida="Bay Lake, FL" info="Preço por adulto" valor="R$ 2.455" />
+            <Card imge={Epcot} viagem="Epcot" saida="Bay Lake, FL" info="Preço por adulto" valor="R$ 2.455" />
 
-            <Card img={Magic} viagem="Magic Kingdom Park" saida="Orlando, FL" info="Preço por adulto" valor="R$ 3.412" />
+            <Card imge={Magic} viagem="Magic Kingdom Park" saida="Orlando, FL" info="Preço por adulto" valor="R$ 3.412" />
             </div>
 
             <Footer
