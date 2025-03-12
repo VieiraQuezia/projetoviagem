@@ -42,7 +42,7 @@ function Turismo() {
           viagem="Casa do João Vitor"
           saida="Em Juarez"
           info="Com Movida"
-          valor="R$ 2.999,99 para o Leonardo (restante grátis)"
+          valor="R$ 2.999,99"
           feito="Agenciado"
           fazer="Agenciar"
         />
