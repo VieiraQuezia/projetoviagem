@@ -8,10 +8,14 @@ import Slider from "../Components/slider.jsx";
 import Instagram from "/instagram.png";
 import gmail from "/gmail.png";
 import Card from "../Components/card.jsx";
+
+
 import Japao from "../../public/paises/japao.png";
 import Mexico from "../../public/paises/mexico.jpg";
 import Roma from "../../public/paises/ItaliaRoma.png";
 import Brasil from "../../public/paises/Brasil.png";
+
+
 import "../App.css";
 
 function App() {
