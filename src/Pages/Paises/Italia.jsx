@@ -1,11 +1,10 @@
-import Header from "../components/header.jsx";
-import Footer from "../components/Footer";
-import NavBar from "../components/navBar.jsx";
+import Header from "../../Components/header.jsx";
+import Footer from "../../components/Footer.jsx";
+import NavBar from "../../components/navBar.jsx";
 import Instagram from "/instagram.png";
 import gmail from "/gmail.png";
-import Card from "../Components/card.jsx";
-import Roma from "/roma.png";
-import "../App.css";
+
+import "../../App.css";
 
 function Italia() {
   return (
