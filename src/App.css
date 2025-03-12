@@ -41,5 +41,11 @@ justify-content: space-around;
   margin-right: auto;
   text-align: center;
 }
+
+.hoteis {
+  display: flex;
+  flex-direction: row;
+  /* width: 60%; */
+}
 /* ------------------------------------------------------------------- */
 
