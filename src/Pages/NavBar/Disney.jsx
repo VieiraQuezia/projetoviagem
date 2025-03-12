@@ -17,6 +17,7 @@ function Disney() {
             <Header />
 
             <NavBar />
+            <div className="blocos">
             <Card img={Animal} viagem="Animal Kingdom" saida="Bay Lake, FL" info="Preço por adulto" valor="R$ 3.137" />
 
             <Card img={Hollywood} viagem="Disney Hollywood" saida="Bay Lake, FL" info="Preço por adulto" valor="R$ 2.895" />
@@ -24,6 +25,8 @@ function Disney() {
             <Card img={Epcot} viagem="Epcot" saida="Bay Lake, FL" info="Preço por adulto" valor="R$ 2.455" />
 
             <Card img={Magic} viagem="Magic Kingdom Park" saida="Orlando, FL" info="Preço por adulto" valor="R$ 3.412" />
+            </div>
+
             <Footer
                 imgi={Instagram}
                 insta="@grupo6"
@@ -31,6 +34,7 @@ function Disney() {
                 email="grupo6@gmail.com"
                 texto="Responsável pelo desenvolvimento: Grupo 06"
             />
+
         </div>
     )
 }
