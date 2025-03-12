@@ -5,12 +5,12 @@ import Instagram from "/instagram.png";
 import Gmail from "/gmail.png";
 import Coliseu from "/Coliseu.png";
 import MonteFuji from "/Monte_Fuji.png";
-import CasaJojo from "Casa_Joao_Vitor.png";
-import Gramado from "Gramado.png";
+import CasaJojo from "/Casa_Joao_Vitor.png";
+import Gramado from "/Gramado.png";
 import Cartao from "../../Components/cartao.jsx";
 import "../../App.css";
 
-function Carros() {
+function Turismo() {
   return (
     <div>
       <Header />
@@ -68,4 +68,4 @@ function Carros() {
   );
 }
 
-export default Carros;
+export default Turismo;
