@@ -1,8 +1,4 @@
-.blocos{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
+
 
 .bloco {
   
@@ -10,8 +6,7 @@
   background-color: #ffffff;
   font-size: 80%;
   color: black;
-  width: 35%;
-  height: 30%;
+  width: auto;
   border-radius: 10px;
 
 
@@ -38,9 +33,7 @@
 }
 
 .imagem {
-  width: 100%;
-  height: 50%;
-  object-fit: cover;
+
+width:100% ;
   border-radius: 10px;
-  padding: 0;
 }
