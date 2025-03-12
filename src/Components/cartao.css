@@ -1,6 +1,8 @@
 .blocoo {
   flex-direction: column;
-  width: 30%;
+  width: 100%;
+  height: 100%;
+
   margin: 2%;
   background-color: #ffffff;
   color: black;
@@ -53,6 +55,7 @@ button {
 
 .alugado {
   background-color: rgb(16, 16, 16);
+  color: #ffffff;
   font-size: 1.2vw;
   padding: 2%;
 }
