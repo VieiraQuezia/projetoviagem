@@ -10,16 +10,16 @@ function NavBar() {
                 <Link className="link" to='/Hospedagens' > Hospedagens </Link>
                 </li>
             <li>
-                <Link className="link" to='/Leo' > Carros </Link>
+                <Link className="link" to='/Carros' > Carros </Link>
                 </li>
             <li>
-                <Link className="link" to='/Hayeska' > Alugueis </Link>
+                <Link className="link" to='/Alugueis' > Alugueis </Link>
                 </li>
             <li>
-                <Link className="link" to='/Quezia' > Disney </Link>
+                <Link className="link" to='/Disney' > Disney </Link>
                 </li>
             <li>
-                <Link className="link" to='/Quezia' > Parques </Link>
+                <Link className="link" to='/Parques' > Parques </Link>
                 </li>
       </ul>
     </nav>

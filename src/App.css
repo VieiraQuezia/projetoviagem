@@ -36,5 +36,10 @@ justify-content: space-around;
   }
 }
 
+.paragrafopais {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
 /* ------------------------------------------------------------------- */
 
