@@ -5,7 +5,7 @@ import imagem3 from "../assets/JapaoToquio.png";
 import imagem4 from "../assets/letonia.png";
 import imagem5 from "../assets/Mexico2.png";
 import imagem6 from "../assets/Russia.png";
-import '../Components/slider.css'
+import './slider.css'
 
 function SliderHome() {
   const imagens = [imagem1, imagem2, imagem3, imagem4, imagem5, imagem6];
