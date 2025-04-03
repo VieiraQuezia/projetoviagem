@@ -1,13 +1,13 @@
-import Header from "../../Components/header.jsx";
-import Footer from "../../Components/footer.jsx";
-import NavBar from "../../Components/navBar.jsx";
+import Header from "../../components/header.jsx";
+import Footer from "../../components/footer.jsx";
+import NavBar from "../../components/navBar.jsx";
 import Instagram from "/instagram.png";
 import Gmail from "/gmail.png";
 import Coliseu from "/Coliseu.png";
 import MonteFuji from "/Monte_Fuji.png";
 import CasaJojo from "/Casa_Joao_Vitor.png";
 import Gramado from "/Gramado.png";
-import Cartao from "../../Components/cartao.jsx";
+import Cartao from "../../components/cartao.jsx";
 import "../../App.css";
 
 function Turismo() {
