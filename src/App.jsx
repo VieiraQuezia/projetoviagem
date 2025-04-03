@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/home";
+import Home from "./Pages/home";
 import Hospedagens from "./pages/navBar/Hospedagens";
 import Carros from "./pages/navBar/Carros";
 import Disney from "./pages/navBar/Disney";
