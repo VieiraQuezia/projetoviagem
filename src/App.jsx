@@ -1,14 +1,14 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./Pages/home";
-import Hospedagens from "./pages/navBar/Hospedagens";
-import Carros from "./pages/navBar/Carros";
-import Disney from "./pages/navBar/Disney";
-import Turismo from "./pages/navBar/Turismo";
-import SobreNos from "./pages/navBar/SobreNos";
-import Italia from "./pages/paises/Italia";
-import Japao from "./pages/paises/Japao";
-import Mexico from "./pages/paises/Mexico";
-import Brasil from "./pages/paises/Brasil";
+import Home from "./pages/home";
+import Hospedagens from "./pages/navBar/paghospedagens";
+import Carros from "./pages/navBar/pagcarros";
+import Disney from "./pages/navBar/pagdisney";
+import Turismo from "./pages/navBar/pagturismo";
+import SobreNos from "./pages/navBar/pagsobrenos";
+import Italia from "./pages/paises/pagitalia";
+import Japao from "./pages/paises/pagjapao";
+import Mexico from "./pages/paises/pagmexico";
+import Brasil from "./pages/paises/pagbrasil";
 
 import "./App.css";
 
