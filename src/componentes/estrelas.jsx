@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import './estrela.css'
 
 function Estrelas() {
   const [nota, setNota] = useState(0);
