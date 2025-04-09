@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 
 
-import Header from "../components/header.jsx";
-import Footer from "../components/footer.jsx";
-import NavBar from "../components/navBar.jsx";
-import Slider from "../components/slider.jsx";
+import Header from "../componentes/header.jsx";
+import Footer from "../componentes/footer.jsx";
+import NavBar from "../componentes/navBar.jsx";
+import Slider from "../componentes/slider.jsx";
 import Instagram from "/instagram.png";
 import gmail from "/gmail.png";
-import Card from "../components/card.jsx";
+import Card from "../componentes/card.jsx";
 
 
 import Japao from "../../public/paises/japao.png";

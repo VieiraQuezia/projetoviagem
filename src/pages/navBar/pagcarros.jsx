@@ -1,9 +1,9 @@
-import Header from "../../components/header.jsx";
-import Footer from "../../components/footer.jsx";
-import NavBar from "../../components/navBar.jsx";
+import Header from "../../componentes/header.jsx";
+import Footer from "../../componentes/footer.jsx";
+import NavBar from "../../componentes/navBar.jsx";
 import Instagram from "/instagram.png";
 import Gmail from "/gmail.png";
-import Cartao from "../../components/cartao.jsx";
+import Cartao from "../../componentes/cartao.jsx";
 import Carro from "/carro.png";
 
 import "../../App.css";
